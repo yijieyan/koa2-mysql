@@ -10,7 +10,7 @@ module.exports = {
             host: 'localhost'
         },
         mysql: {
-            dbHost: '112.74.13.145',
+            dbHost: 'localhost',
             dbUser: 'root',
             dbPassword: '123456',
             dbName: 'test'
@@ -22,6 +22,12 @@ module.exports = {
         redis: {
             port: 6379,
             host: 'localhost'
+        },
+        mysql: {
+            dbHost: 'localhost',
+            dbUser: 'root',
+            dbPassword: '123456',
+            dbName: 'test'
         }
     },
     'prouction': {
@@ -30,6 +36,12 @@ module.exports = {
         redis: {
             port: 6379,
             host: 'localhost'
+        },
+        mysql: {
+            dbHost: 'localhost',
+            dbUser: 'root',
+            dbPassword: '123456',
+            dbName: 'test'
         }
     },
     'localhost': {
@@ -40,7 +52,7 @@ module.exports = {
             host: 'localhost'
         },
         mysql: {
-            dbHost: '112.74.13.145',
+            dbHost: 'localhost',
             dbUser: 'root',
             dbPassword: '123456',
             dbName: 'test'
