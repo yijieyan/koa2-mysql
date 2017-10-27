@@ -36,6 +36,7 @@ co(function*() {
 
     });
     yield sequelize.sync({logging: console.log});
+    process.exit();
 }).catch(err => {
     console.log('err:',err);
 });
