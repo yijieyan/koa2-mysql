@@ -1,4 +1,4 @@
-global.env = process.env.environment || 'development';
+global.env = process.env.environment || 'localhost';
 
 
 module.exports = {
