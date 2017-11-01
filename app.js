@@ -22,7 +22,12 @@ app.use(logger());
 app.use(error);
 app.use(require('koa-static')(__dirname + '/public'));
 async function init() {
-    await db.init();
+    try {
+        await db.init();
+    }catch(err) {
+        console.log(`mysql connection is fail ,err: ${err}`);
+    }
+
 }
 
 

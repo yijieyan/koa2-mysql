@@ -8,8 +8,8 @@ module.exports = function (sequelize, DataTypes) {
         originalname: {type: DataTypes.STRING, defaultValue: null},
         account: {type: DataTypes.STRING, defaultValue: null}
     }, {
-        engine: 'MYISAM',
+        engine: 'InnoDB',
         charset: 'utf8',
-        timestamps: false
+        timestamps: true
     });
 };
